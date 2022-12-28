@@ -96,6 +96,8 @@ save.onclick = function(){
 
     modal.remove();
 
+    //ghfdhdh
+
     name1.textContent = input_name1.value;
     name2.textContent = input_name2.value;
 
