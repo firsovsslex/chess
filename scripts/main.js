@@ -91,9 +91,7 @@ save.onclick = function(){
         if(!time.getHours() && !time.getMinutes() && time.getSeconds() < 30) timerElements[i].style.color = 'red';
         timerElements[i].textContent = updateTimer(time);
     }
-
-    //dgfdsgh
-
+    
     modal.remove();
 
     name1.textContent = input_name1.value;
