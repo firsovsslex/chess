@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts/main.js"></script>
+    <title>Chess</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <div class="modal">
+                <div class="settings">
+
+                    <div class="settings__name">
+                        <p>Введите имя1: </p><input maxlength="10" autocomplete="off" id="input-name1" type="text">
+                    </div>
+                    
+
+                    <div class="settings__name">
+                        <p>Введите имя2: </p><input maxlength="10" autocomplete="off" id="input-name2" type="text">          
+                    </div>
+                    
+                    
+                    <div class="settings__time">
+                        <p>Введите время: </p>
+                        
+                        <input placeholder="00" maxlength="2" autocomplete="off" id="hours" type="text">
+                        <p>:</p>
+                        <input placeholder="00" maxlength="2" autocomplete="off" id="minutes" type="text">
+                        <p>:</p>
+                        <input placeholder="00" maxlength="2" autocomplete="off" id="seconds" type="text">
+                               
+                    </div>
+                    
+
+                    <button id="save">Играть</button>
+
+                </div>
+            </div>
+            
+
+            <div class="field-container">
+                <div class="field-container__X">
+                    <div id="field"></div>
+                </div>        
+            </div>
+
+            <div class="chess-data">
+
+                <div class="chess-data__figures" id="data-figures2"></div>
+
+                <div class="chess-data__tools">
+
+                    <div><p class="chess-data__timer" id="timer2">00:00:00</p></div>
+
+                    <div class="chess-data__border">
+                        <div class="data">
+                        
+                            <div class="data__name"><p id="name2">Player2</p></div>
+                           
+                            <div class="chess-log"></div>                         
+                                                           
+                            <!-- <div class="data__buttons">
+                                <button id="move-back"></button>
+                                <button id="draw-request"></button>
+                                <button id="surrender"></button>
+                            </div> -->
+                            
+                            <div class="data__name"><p id="name1">Player1</p></div>
+                            
+                        </div>
+                    </div>
+    
+                    
+        
+                    <div><p class="chess-data__timer" id="timer1">00:00:00</p></div>
+
+                </div>
+
+                
+                <div class="chess-data__figures" id="data-figures1"></div>  
+
+            </div>
+   
+            
+        </div>
+    </div>
+    
+</body>
+</html>
