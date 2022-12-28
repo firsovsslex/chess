@@ -91,14 +91,14 @@ save.onclick = function(){
         if(!time.getHours() && !time.getMinutes() && time.getSeconds() < 30) timerElements[i].style.color = 'red';
         timerElements[i].textContent = updateTimer(time);
     }
-    
+
     modal.remove();
 
     name1.textContent = input_name1.value;
     name2.textContent = input_name2.value;
 
     field = new Field(8, true, generation);
-    field.createField();
+    // field.createField();
     field.generate();
     field.setChessCoords();
 
