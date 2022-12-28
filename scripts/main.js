@@ -98,7 +98,7 @@ save.onclick = function(){
     name2.textContent = input_name2.value;
 
     field = new Field(8, true, generation);
-    // field.createField();
+    field.createField();
     field.generate();
     field.setChessCoords();
 
